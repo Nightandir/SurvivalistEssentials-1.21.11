@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    "#survivalistessentials:giant_logs",
+    "#survivalistessentials:advanced_saw_tools"
+  ],
+  "result": {
+    "count": 64,
+    "id": "minecraft:oak_planks"
+  }
+}

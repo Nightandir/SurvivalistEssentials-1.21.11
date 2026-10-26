@@ -1,0 +1,52 @@
+{
+  "values": [
+    {
+      "id": "biomesoplenty:redwood_log",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_log",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_wood",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_wood",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:redwood_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_redwood_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:redwood_wood",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_redwood_wood",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_log",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_log",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_wood",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_redwood_wood",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "books",
+  "ingredients": [
+    "survivalistessentials:book"
+  ],
+  "result": {
+    "count": 1,
+    "id": "survivalistessentials:rock_stone"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "values": [
+    {
+      "id": "tconstruct:kama",
+      "required": false
+    },
+    {
+      "id": "tconstruct:dagger",
+      "required": false
+    },
+    {
+      "id": "tconstruct:cleaver",
+      "required": false
+    },
+    {
+      "id": "tconstruct:sword",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:revolver",
+      "required": false
+    },
+    {
+      "id": "tetra:modular_sword",
+      "required": false
+    },
+    {
+      "id": "#minecraft:swords",
+      "required": false
+    },
+    {
+      "id": "#survivalistessentials:knife_tools",
+      "required": false
+    },
+    {
+      "id": "#survivalistessentials:axe_tools",
+      "required": false
+    }
+  ]
+}

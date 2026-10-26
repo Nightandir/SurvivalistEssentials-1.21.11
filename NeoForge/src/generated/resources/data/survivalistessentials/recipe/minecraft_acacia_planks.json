@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    "#minecraft:acacia_logs",
+    "#survivalistessentials:advanced_saw_tools"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:acacia_planks"
+  }
+}

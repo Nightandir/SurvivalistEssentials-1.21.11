@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "fruitfulfun:citrus_log",
+      "required": false
+    },
+    {
+      "id": "fruitfulfun:stripped_citrus_log",
+      "required": false
+    },
+    {
+      "id": "fruitfulfun:citrus_wood",
+      "required": false
+    },
+    {
+      "id": "fruitfulfun:stripped_citrus_wood",
+      "required": false
+    }
+  ]
+}

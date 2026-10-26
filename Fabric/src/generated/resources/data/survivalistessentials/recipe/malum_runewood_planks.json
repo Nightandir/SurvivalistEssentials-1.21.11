@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "malum"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    "#survivalistessentials:runewood_logs",
+    "#survivalistessentials:advanced_saw_tools"
+  ],
+  "result": {
+    "count": 4,
+    "id": "malum:runewood_planks"
+  }
+}

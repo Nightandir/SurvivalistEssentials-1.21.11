@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "biomemakeover"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    "#survivalistessentials:swamp_cypress_log",
+    "#survivalistessentials:advanced_saw_tools"
+  ],
+  "result": {
+    "count": 4,
+    "id": "biomemakeover:swamp_cypress_planks"
+  }
+}

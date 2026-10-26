@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:all_mods_loaded",
+        "values": [
+          "tinkersurvival"
+        ]
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": "survivalistessentials:basic_saw_blade",
+    "H": "survivalistessentials:saw_handle",
+    "S": "#c:strings"
+  },
+  "pattern": [
+    "BS",
+    " H"
+  ],
+  "result": {
+    "count": 1,
+    "id": "survivalistessentials:basic_saw"
+  }
+}

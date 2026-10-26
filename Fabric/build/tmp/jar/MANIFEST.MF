@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Specification-Title: SurvivalistEssentials
+Specification-Vendor: wendall911
+Specification-Version: 6.3.2.1-FABRIC
+Implementation-Title: Fabric
+Implementation-Version: 6.3.2.1-FABRIC
+Implementation-Vendor: wendall911
+Implementation-Timestamp: 2026-10-26T20:35:26+0300
+Timestamp: 1793036126900
+Built-On-Java: 21.0.12.1+1-LTS (Eclipse Adoptium)
+Build-On-Minecraft: 1.21.10
+

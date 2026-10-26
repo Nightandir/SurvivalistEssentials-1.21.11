@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "regions_unexplored:brimwood_log",
+      "required": false
+    },
+    {
+      "id": "watersource:stripped_brimwood_log",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_log_magma",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:brimwood_wood",
+      "required": false
+    }
+  ]
+}

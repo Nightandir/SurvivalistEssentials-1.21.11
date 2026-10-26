@@ -1,0 +1,48 @@
+{
+  "values": [
+    "minecraft:gravel",
+    "minecraft:stone",
+    "minecraft:calcite",
+    "minecraft:granite",
+    "minecraft:diorite",
+    "minecraft:andesite",
+    "minecraft:coal_ore",
+    "minecraft:sandstone",
+    "minecraft:iron_block",
+    "minecraft:copper_ore",
+    "minecraft:mossy_cobblestone",
+    "minecraft:red_sandstone",
+    {
+      "id": "#c:gravels",
+      "required": false
+    },
+    {
+      "id": "#minecraft:dirt",
+      "required": false
+    },
+    {
+      "id": "#minecraft:sand",
+      "required": false
+    },
+    {
+      "id": "#c:sands",
+      "required": false
+    },
+    {
+      "id": "#minecraft:terracotta",
+      "required": false
+    },
+    {
+      "id": "#c:ores/coal",
+      "required": false
+    },
+    {
+      "id": "#c:ores/copper",
+      "required": false
+    },
+    {
+      "id": "#c:ores/iron",
+      "required": false
+    }
+  ]
+}

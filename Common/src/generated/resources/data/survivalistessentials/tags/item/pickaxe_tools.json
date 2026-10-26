@@ -1,0 +1,44 @@
+{
+  "values": [
+    {
+      "id": "#c:tools/mining_tool",
+      "required": false
+    },
+    {
+      "id": "#minecraft:pickaxes",
+      "required": false
+    },
+    {
+      "id": "tconstruct:pickaxe",
+      "required": false
+    },
+    {
+      "id": "tconstruct:pickadze",
+      "required": false
+    },
+    {
+      "id": "tconstruct:sledge_hammer",
+      "required": false
+    },
+    {
+      "id": "tconstruct:vein_hammer",
+      "required": false
+    },
+    {
+      "id": "tetra:modular_sword",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:buzzsaw",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:drill",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:hammer",
+      "required": false
+    }
+  ]
+}

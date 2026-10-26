@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "botania:dreamwood_log",
+      "required": false
+    },
+    {
+      "id": "botania:stripped_dreamwood_log",
+      "required": false
+    },
+    {
+      "id": "botania:dreamwood_wood",
+      "required": false
+    },
+    {
+      "id": "botania:stripped_dreamwood_wood",
+      "required": false
+    }
+  ]
+}

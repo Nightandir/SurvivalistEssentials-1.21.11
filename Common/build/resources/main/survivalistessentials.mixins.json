@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "survivalistessentials.mixin",
+  "refmap": "survivalistessentials.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AbstractBlockAccessor",
+    "AbstractBlockStateAccessor",
+    "AbstractHurtingProjectileMixin",
+    "HoeItemMixin",
+    "ItemMixin",
+    "LivingEntityMixin"
+  ],
+  "client": [
+    "CraftPlanksTutorialStepMixin",
+    "PunchTreeTutorialStepMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

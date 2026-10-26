@@ -1,0 +1,36 @@
+{
+  "values": [
+    {
+      "id": "biomeswevegone:pine_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_pine_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pine_wood",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_pine_wood",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_log",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_log",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_wood",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_pine_wood",
+      "required": false
+    }
+  ]
+}

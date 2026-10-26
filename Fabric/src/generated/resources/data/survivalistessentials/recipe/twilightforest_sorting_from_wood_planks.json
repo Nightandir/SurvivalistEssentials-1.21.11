@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "twilightforest"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    "#survivalistessentials:sorting_wood",
+    "#survivalistessentials:advanced_saw_tools"
+  ],
+  "result": {
+    "count": 4,
+    "id": "twilightforest:sorting_planks"
+  }
+}

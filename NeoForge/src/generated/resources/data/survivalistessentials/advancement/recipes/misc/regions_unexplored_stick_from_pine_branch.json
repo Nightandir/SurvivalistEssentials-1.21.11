@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "regions_unexplored"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_branch": {
+      "conditions": {
+        "items": [
+          {
+            "items": "regions_unexplored:pine_branch"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "survivalistessentials:regions_unexplored_stick_from_pine_branch"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_branch"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "survivalistessentials:regions_unexplored_stick_from_pine_branch"
+    ]
+  }
+}

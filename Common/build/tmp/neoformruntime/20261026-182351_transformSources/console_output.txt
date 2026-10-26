@@ -1,0 +1,22 @@
+--------------------------------------------------------------------------------
+
+Command-Line:
+ - F:\Programes\bin\java.exe
+ - -jar
+ - C:\Users\User\.gradle\caches\modules-2\files-2.1\net.neoforged.jst\jst-cli-bundle\1.0.74\4b55f9a755ff69d480d3fb5d68c40662f5265b7e\jst-cli-bundle-1.0.74.jar
+ - --problems-report
+ - C:\Users\User\Desktop\SURV\se_work_12110\SurvivalistEssentials-1.21.10\Common\build\tmp\neoformruntime\20261026-182351_transformSources\problems.json
+ - --libraries-list
+ - ./libraries.txt
+ - --in-format
+ - ARCHIVE
+ - --out-format
+ - ARCHIVE
+ - --enable-parchment
+ - --parchment-mappings=C:\Users\User\.gradle\caches\modules-2\files-2.1\org.parchmentmc.data\parchment-1.21.10\2025.10.12\2119c16f46263f413364cf6fae139f8dce33a96c\parchment-1.21.10-2025.10.12.zip
+ - --parchment-conflict-prefix=p_
+ - C:\Users\User\.gradle\caches\neoformruntime\intermediate_results\patch_b1f1ae1af5c2ebe23f9864c69d11ab6e68ad2777_output.zip
+ - ./output.zip
+--------------------------------------------------------------------------------
+
+Loading mapping file C:\Users\User\.gradle\caches\modules-2\files-2.1\org.parchmentmc.data\parchment-1.21.10\2025.10.12\2119c16f46263f413364cf6fae139f8dce33a96c\parchment-1.21.10-2025.10.12.zip

@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bloomingnature"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    "#survivalistessentials:aspen_logs",
+    "survivalistessentials:crude_saw"
+  ],
+  "result": {
+    "count": 2,
+    "id": "bloomingnature:aspen_planks"
+  }
+}

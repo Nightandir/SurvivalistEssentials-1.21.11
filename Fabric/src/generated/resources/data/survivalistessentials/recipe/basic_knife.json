@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:all_mods_loaded",
+        "values": [
+          "tinkersurvival"
+        ]
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "S": "minecraft:stick",
+    "X": "#c:strings"
+  },
+  "pattern": [
+    "IX",
+    " S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "survivalistessentials:basic_knife"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "regions_unexplored"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "sticks",
+  "ingredients": [
+    "regions_unexplored:eucalyptus_branch",
+    "survivalistessentials:crude_saw"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:stick"
+  }
+}

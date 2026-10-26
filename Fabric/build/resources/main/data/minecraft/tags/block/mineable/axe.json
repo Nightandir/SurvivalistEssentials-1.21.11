@@ -1,0 +1,116 @@
+{
+  "values": [
+    {
+      "id": "vinery:dark_cherry_log",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_wood",
+      "required": false
+    },
+    {
+      "id": "vinery:stripped_dark_cherry_wood",
+      "required": false
+    },
+    {
+      "id": "vinery:stripped_dark_cherry_log",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_planks",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_stairs",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_slab",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_button",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_trapdoor",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_door",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_fence",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_fence_gate",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_beam",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_floorboard",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_sign",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_hanging_sign",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_big_table",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_shelf",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_drawer",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_cabinet",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_table",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_chair",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_barrel",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_wine_rack_small",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_wine_rack_mid",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_wine_rack_big",
+      "required": false
+    },
+    {
+      "id": "vinery:dark_cherry_lattice",
+      "required": false
+    }
+  ]
+}

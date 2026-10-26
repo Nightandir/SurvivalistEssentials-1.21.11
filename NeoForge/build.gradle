@@ -1,0 +1,232 @@
+plugins {
+    id 'multiloader-loader'
+    id 'net.neoforged.moddev'
+    id 'io.github.goooler.shadow'
+}
+
+def modLoader = "${project.name}".toUpperCase()
+def actualVersion = version
+version = "${version}-${modLoader}"
+
+neoForge {
+    version = neoforge_version
+    parchment {
+        minecraftVersion = mappings_minecraft_version
+        mappingsVersion = mappings_version
+    }
+    runs {
+        configureEach {
+            systemProperty('neoforge.enabledGameTestNamespaces', mod_id)
+            ideName = "NeoForge ${it.name.capitalize()} (${project.path})" // Unify the run config names with fabric
+        }
+        client {
+            client()
+        }
+        server {
+            server()
+            programArgument '--nogui'
+        }
+        clientData {
+            programArguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
+            clientData()
+        }
+    }
+    mods {
+        "${mod_id}" {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+dependencies {
+    implementation group: 'technology.roughness.whitenoise', name: "whitenoise-${minecraft_version}-neoforge", version: "${whitenoise_version}"
+    jarJar group: 'technology.roughness.whitenoise', name: "whitenoise-${minecraft_version}-neoforge", version: "${whitenoise_version}"
+
+    compileOnly "mezz.jei:jei-${jei_minecraft_version}-common-api:${jei_version}"
+    compileOnly "mezz.jei:jei-${jei_minecraft_version}-neoforge:${jei_version}"
+
+    runtimeOnly "mezz.jei:jei-${jei_minecraft_version}-neoforge:${jei_version}"
+
+    compileOnly "me.shedaniel:RoughlyEnoughItems-neoforge:${rei_version}"
+
+    /*
+     * Not available past 1.21.1
+    runtimeOnly ("mcjty.theoneprobe:theoneprobe:1.21_neo-${probe_version}") {
+        transitive = false
+    }
+    */
+
+    implementation group: 'technology.roughness.handbook', name: "handbook-${minecraft_version}-neoforge", version: "${handbook_version}"
+    jarJar group: 'technology.roughness.handbook', name: "handbook-${minecraft_version}-neoforge", version: "${handbook_version}"
+
+    //runtimeOnly "top.theillusivec4.curios:curios-neoforge:${curios_version}+${minecraft_version}"
+    //compileOnly "top.theillusivec4.curios:curios-neoforge:${curios_version}+${minecraft_version}:api"
+
+    compileOnly "curse.maven:carryon-274259:${carryon_neoforge_version}"
+
+    //runtimeOnly "curse.maven:configured-457570:4462839"
+    //runtimeOnly "slimeknights.mantle:Mantle:${minecraft_version}-${mantle_version}"
+    //runtimeOnly "slimeknights.tconstruct:TConstruct:${minecraft_version}-${tic_version}"
+    //runtimeOnly "com.github.wendall911.tinkersurvival:tinkersurvival:${minecraft_version}-${ts_version}" {
+    //    transitive = false
+    //}
+
+    //runtimeOnly "curse.maven:crafttweaker-239197:3918220"
+
+    //Include some examples here for testing other mods
+    //runtimeOnly "curse.maven:terrablender-940057:${terrablender_version}"
+    //runtimeOnly "curse.maven:byg-1070751:${byg_version}"
+    //runtimeOnly "curse.maven:tyg-962544:${tyg_version}"
+    //runtimeOnly "curse.maven:corgilib-693313:${corgilib_version}"
+    //runtimeOnly "software.bernie.geckolib:geckolib-neoforge-${minecraft_version}:${geckolib_version}"
+    //runtimeOnly "curse.maven:bop-220318:${bop_version}"
+    //runtimeOnly "curse.maven:regions-659110:${regions_version}"
+    //runtimeOnly "curse.maven:glitch_core-955399:${glitch_core_version}"
+    //runtimeOnly "curse.maven:kiwi-303657:3974084"
+    //runtimeOnly "curse.maven:fruittrees-355467:3990227"
+    //runtimeOnly "curse.maven:biomemakeover-567709:4642570"
+    //runtimeOnly "curse.maven:architectury-419699:4633048"
+    //runtimeOnly "curse.maven:botania-225643:???"
+    //runtimeOnly "curse.maven:immersiveengineering-231951:${ie_version}"
+    //runtimeOnly "curse.maven:twilightforest-227639:3995805"
+    //runtimeOnly "curse.maven:catalogue-459701:3873264"
+    //runtimeOnly "curse.maven:autoreglib-250363:3857246"
+    //runtimeOnly "curse.maven:quark-243121:3961436"
+    //runtimeOnly "curse.maven:ayce-494854:???"
+    //runtimeOnly "curse.maven:water_source-388078:???"
+    //runtimeOnly "curse.maven:geckolib-388172:4019767"
+    //runtimeOnly "curse.maven:arsnouveau-401955:4631683"
+    //runtimeOnly "curse.maven:undergarden-379849:???"
+    //runtimeOnly "curse.maven:dynamictrees-252818:4979755"
+    //runtimeOnly "curse.maven:ecologics-570463:3987881"
+    //runtimeOnly "curse.maven:aquaculture-60028:3990680"
+    //runtimeOnly "curse.maven:carryon-274259:${carryon_neoforge_version}"
+    //runtimeOnly "curse.maven:lodestone-616457:4636991"
+    //runtimeOnly "curse.maven:malum-484064:4638343"
+    //runtimeOnly "curse.maven:citadel-331936:3783096"
+    //runtimeOnly "curse.maven:iceandfire-264231:4614465"
+    //runtimeOnly "curse.maven:railcraft_reborn-901491:5650759"
+    //runtimeOnly "curse.maven:create-328085:${create_neoforge_version}"
+    runtimeOnly "curse.maven:jade-324717:${jade_neoforge_version}"
+    //runtimeOnly "dev.architectury:architectury-neoforge:${architectury_version}"
+    //runtimeOnly "curse.maven:letsdo_beach-858691:${letsdo_beach_neoforge_version}"
+    //runtimeOnly "curse.maven:letsdo_blooming-962885:${letsdo_blooming_neoforge_version}"
+    //runtimeOnly "curse.maven:letsdo_meadow-821483:${letsdo_meadow_neoforge_version}"
+    //runtimeOnly "curse.maven:letsdo_farm-1038103:${letsdo_farm_neoforge_version}"
+    //runtimeOnly "curse.maven:letsdo_vinery-704465:${letsdo_vinery_neoforge_version}"
+    //runtimeOnly "curse.maven:letsdo_wilder-1071657:${letsdo_wilder_neoforge_version}"
+    //runtimeOnly "curse.maven:-:"
+}
+
+sourceSets.main.resources {
+    srcDir 'src/generated/resources'
+}
+
+shadowJar {
+    archiveClassifier = ''
+}
+
+def changelogFile = project(":").projectDir.toString() + '/build/libs/changelog.txt'
+def publishFile = project(":").projectDir.toString() + "/NeoForge/build/libs/${archivesBaseName}-${version}.jar"
+def display_name = "${project.name} ${minecraft_version}-${version}"
+def display_version = "${minecraft_version}-${version}"
+
+publishMods {
+    file = file(publishFile)
+    if (file(changelogFile).exists()) {
+        changelog = file(changelogFile).text
+    }
+    displayName = "${display_name}"
+    version = "${display_version}"
+    type = "${release_type}".startsWith("release") ? STABLE : ("${release_type}".startsWith("beta") ? BETA : ALPHA)
+    modLoaders.add('neoforge')
+    dryRun = providers.environmentVariable('DO_RELEASE').getOrNull() == null
+
+    if (project.hasProperty("${curseforge_api_key_prop}")) {
+        curseforge {
+            accessToken = project.property("${curseforge_api_key_prop}")
+            projectId = "${curseforge_id}"
+            projectSlug = "${curseforge_slug}"
+            javaVersions.add(JavaVersion.toVersion("${java_version}"))
+            clientRequired = true
+            serverRequired = true
+            minecraftVersions.addAll("${release_versions}".split(','))
+            optional('actually-harvest')
+            optional('betterdays')
+            optional('charged-charms')
+            optional('creeper-fireworks')
+            optional('homeostatic')
+            optional('simpletextoverlay')
+            optional('ready-player-fun')
+            optional('tinkersurvival')
+            optional('fruit-trees')
+            optional('quark')
+            optional('biomes-o-plenty')
+            optional('all-you-can-eat')
+            optional('water-source')
+            optional('sushigocrafting')
+            optional('botania')
+            optional('ars-nouveau')
+            optional('exnihilosequentia')
+            optional('the-undergarden')
+            optional('dynamictrees')
+            optional('oh-the-biomes-weve-gone')
+            optional('the-twilight-forest')
+            optional('ecologics')
+            optional('alexs-mobs')
+            optional('betteranimalsplus')
+            optional('malum')
+            optional('ice-and-fire-dragons')
+            optional('psi')
+            optional('regions-unexplored')
+            optional('create')
+            optional('lets-do-beachparty')
+            optional('lets-do-bloomingnature')
+            optional('lets-do-meadow')
+            optional('lets-do-farm-charm')
+            optional('lets-do-vinery')
+            optional('lets-do-wildernature')
+        }
+    }
+    if (project.hasProperty("${modrinth_api_key_prop}")) {
+        modrinth {
+            accessToken = project.property("${modrinth_api_key_prop}")
+            projectId = "${modrinth_id}"
+            minecraftVersions.addAll("${release_versions}".split(','))
+            optional('actually-harvest')
+            optional('betterdays')
+            optional('charged-charms')
+            optional('creeper-fireworks-mod')
+            optional('homeostatic')
+            optional('simpletextoverlay')
+            optional('ready-player-fun')
+            optional('tinkersurvival')
+            optional('quark')
+            optional('allyoucaneat')
+            optional('botania')
+            optional('exnihilosequentia')
+            optional('dynamictrees')
+            optional('oh-the-biomes-weve-gone')
+            optional('ecologics')
+            optional('psi')
+            optional('regions-unexplored')
+            optional('create')
+            optional('lets-do-beachparty')
+            optional('lets-do-bloomingnature')
+            optional('lets-do-meadow')
+            optional('lets-do-farm-charm')
+            optional('lets-do-vinery')
+            optional('lets-do-wildernature')
+        }
+    }
+    if (project.hasProperty("${discord_webhook_prop}")) {
+        discord {
+            webhookUrl = project.property("${discord_webhook_prop}")
+            dryRunWebhookUrl = project.property("${discord_dryrun_webhook_prop}")
+            username = "${mod_author}"
+            content = changelog.map {
+                "# A new version of ${mod_display_name} for NeoForge ${minecraft_version} has been released! \n" + it
+            }
+        }
+    }
+}

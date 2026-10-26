@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "fruitfulfun:cherry_log",
+      "required": false
+    },
+    {
+      "id": "fruitfulfun:stripped_cherry_log",
+      "required": false
+    },
+    {
+      "id": "fruitfulfun:cherry_wood",
+      "required": false
+    },
+    {
+      "id": "fruitfulfun:stripped_cherry_wood",
+      "required": false
+    }
+  ]
+}

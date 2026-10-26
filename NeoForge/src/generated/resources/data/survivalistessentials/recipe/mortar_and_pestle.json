@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": "minecraft:stick",
+    "P": "#minecraft:planks",
+    "R": "survivalistessentials:rock_stone"
+  },
+  "pattern": [
+    "  I",
+    "PRP",
+    " P "
+  ],
+  "result": {
+    "count": 1,
+    "id": "survivalistessentials:mortar_and_pestle"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "meadow"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    "#survivalistessentials:pine_logs",
+    "survivalistessentials:crude_saw"
+  ],
+  "result": {
+    "count": 2,
+    "id": "meadow:pine_planks"
+  }
+}

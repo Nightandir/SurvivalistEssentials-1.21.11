@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "biomemakeover"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    "#survivalistessentials:ancient_oak_wood",
+    "survivalistessentials:crude_saw"
+  ],
+  "result": {
+    "count": 2,
+    "id": "biomemakeover:ancient_oak_planks"
+  }
+}

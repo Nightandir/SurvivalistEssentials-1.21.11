@@ -1,0 +1,98 @@
+{
+  "mappings": {
+    "survivalistessentials/mixin/AbstractBlockAccessor": {
+      "properties": "field_23155:Lnet/minecraft/class_4970$class_2251;"
+    },
+    "survivalistessentials/mixin/AbstractBlockStateAccessor": {
+      "destroySpeed": "field_23172:F",
+      "pushReaction": "field_43393:Lnet/minecraft/class_3619;",
+      "requiresCorrectToolForDrops": "field_25184:Z"
+    },
+    "survivalistessentials/mixin/AbstractHurtingProjectileMixin": {
+      "tick": "Lnet/minecraft/class_1668;method_5773()V"
+    },
+    "survivalistessentials/mixin/CraftPlanksTutorialStepMixin": {
+      "tick": "Lnet/minecraft/class_1149;method_4899()V"
+    },
+    "survivalistessentials/mixin/FabricClientPacketListenerMixin": {
+      "Lnet/minecraft/client/Options;setServerRenderDistance(I)V": "Lnet/minecraft/class_315;method_38520(I)V",
+      "handleLogin": "Lnet/minecraft/class_634;method_11120(Lnet/minecraft/class_2678;)V"
+    },
+    "survivalistessentials/mixin/FabricPlayerListMixin": {
+      "placeNewPlayer": "Lnet/minecraft/class_3324;method_14570(Lnet/minecraft/class_2535;Lnet/minecraft/class_3222;Lnet/minecraft/class_8792;)V"
+    },
+    "survivalistessentials/mixin/FabricPlayerMixin": {
+      "getDestroySpeed": "Lnet/minecraft/class_1657;method_7351(Lnet/minecraft/class_2680;)F",
+      "hasCorrectToolForDrops": "Lnet/minecraft/class_1657;method_7305(Lnet/minecraft/class_2680;)Z"
+    },
+    "survivalistessentials/mixin/FabricServerPlayerGameModeMixin": {
+      "Lnet/minecraft/world/level/block/state/BlockState;getBlock()Lnet/minecraft/world/level/block/Block;": "Lnet/minecraft/class_2680;method_26204()Lnet/minecraft/class_2248;",
+      "destroyBlock": "Lnet/minecraft/class_3225;method_14266(Lnet/minecraft/class_2338;)Z"
+    },
+    "survivalistessentials/mixin/FabricServerPlayerMixin": {
+      "restoreFrom": "Lnet/minecraft/class_3222;method_14203(Lnet/minecraft/class_3222;Z)V"
+    },
+    "survivalistessentials/mixin/HoeItemMixin": {
+      "useOn": "Lnet/minecraft/class_1794;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+    },
+    "survivalistessentials/mixin/ItemMixin": {
+      "useOn": "Lnet/minecraft/class_1792;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+    },
+    "survivalistessentials/mixin/LivingEntityMixin": {
+      "Lnet/minecraft/world/entity/LivingEntity;setAbsorptionAmount(F)V": "Lnet/minecraft/class_1309;method_6073(F)V",
+      "actuallyHurt(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)V": "Lnet/minecraft/class_1309;method_6074(Lnet/minecraft/class_3218;Lnet/minecraft/class_1282;F)V"
+    },
+    "survivalistessentials/mixin/PunchTreeTutorialStepMixin": {
+      "tick": "Lnet/minecraft/class_1153;method_4899()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "survivalistessentials/mixin/AbstractBlockAccessor": {
+        "properties": "field_23155:Lnet/minecraft/class_4970$class_2251;"
+      },
+      "survivalistessentials/mixin/AbstractBlockStateAccessor": {
+        "destroySpeed": "field_23172:F",
+        "pushReaction": "field_43393:Lnet/minecraft/class_3619;",
+        "requiresCorrectToolForDrops": "field_25184:Z"
+      },
+      "survivalistessentials/mixin/AbstractHurtingProjectileMixin": {
+        "tick": "Lnet/minecraft/class_1668;method_5773()V"
+      },
+      "survivalistessentials/mixin/CraftPlanksTutorialStepMixin": {
+        "tick": "Lnet/minecraft/class_1149;method_4899()V"
+      },
+      "survivalistessentials/mixin/FabricClientPacketListenerMixin": {
+        "Lnet/minecraft/client/Options;setServerRenderDistance(I)V": "Lnet/minecraft/class_315;method_38520(I)V",
+        "handleLogin": "Lnet/minecraft/class_634;method_11120(Lnet/minecraft/class_2678;)V"
+      },
+      "survivalistessentials/mixin/FabricPlayerListMixin": {
+        "placeNewPlayer": "Lnet/minecraft/class_3324;method_14570(Lnet/minecraft/class_2535;Lnet/minecraft/class_3222;Lnet/minecraft/class_8792;)V"
+      },
+      "survivalistessentials/mixin/FabricPlayerMixin": {
+        "getDestroySpeed": "Lnet/minecraft/class_1657;method_7351(Lnet/minecraft/class_2680;)F",
+        "hasCorrectToolForDrops": "Lnet/minecraft/class_1657;method_7305(Lnet/minecraft/class_2680;)Z"
+      },
+      "survivalistessentials/mixin/FabricServerPlayerGameModeMixin": {
+        "Lnet/minecraft/world/level/block/state/BlockState;getBlock()Lnet/minecraft/world/level/block/Block;": "Lnet/minecraft/class_2680;method_26204()Lnet/minecraft/class_2248;",
+        "destroyBlock": "Lnet/minecraft/class_3225;method_14266(Lnet/minecraft/class_2338;)Z"
+      },
+      "survivalistessentials/mixin/FabricServerPlayerMixin": {
+        "restoreFrom": "Lnet/minecraft/class_3222;method_14203(Lnet/minecraft/class_3222;Z)V"
+      },
+      "survivalistessentials/mixin/HoeItemMixin": {
+        "useOn": "Lnet/minecraft/class_1794;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+      },
+      "survivalistessentials/mixin/ItemMixin": {
+        "useOn": "Lnet/minecraft/class_1792;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+      },
+      "survivalistessentials/mixin/LivingEntityMixin": {
+        "Lnet/minecraft/world/entity/LivingEntity;setAbsorptionAmount(F)V": "Lnet/minecraft/class_1309;method_6073(F)V",
+        "actuallyHurt(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)V": "Lnet/minecraft/class_1309;method_6074(Lnet/minecraft/class_3218;Lnet/minecraft/class_1282;F)V"
+      },
+      "survivalistessentials/mixin/PunchTreeTutorialStepMixin": {
+        "tick": "Lnet/minecraft/class_1153;method_4899()V"
+      }
+    }
+  }
+}

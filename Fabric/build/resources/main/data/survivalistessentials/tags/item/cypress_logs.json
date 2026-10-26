@@ -1,0 +1,36 @@
+{
+  "values": [
+    {
+      "id": "biomeswevegone:cypress_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_cypress_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cypress_wood",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_cypress_wood",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_log",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_log",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_wood",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_cypress_wood",
+      "required": false
+    }
+  ]
+}

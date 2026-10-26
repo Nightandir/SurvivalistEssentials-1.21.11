@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "regions_unexplored:blue_bioshroom_hyphae",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_blue_bioshroom_hyphae",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:blue_bioshroom_stem",
+      "required": false
+    },
+    {
+      "id": "watersource:stripped_blue_bioshroom_stem",
+      "required": false
+    }
+  ]
+}

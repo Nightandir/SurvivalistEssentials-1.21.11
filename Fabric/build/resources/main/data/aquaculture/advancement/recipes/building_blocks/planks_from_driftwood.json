@@ -1,0 +1,40 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "aquaculture"
+      ]
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_driftwood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#survivalistessentials:driftwood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "aquaculture:planks_from_driftwood"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_driftwood"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "aquaculture:planks_from_driftwood"
+    ]
+  }
+}

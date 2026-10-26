@@ -1,0 +1,51 @@
+{
+  "type": "survivalistessentials:add_loot",
+  "additional": {
+    "count": 1,
+    "id": "minecraft:stick"
+  },
+  "conditions": [
+    {
+      "chance": 0.16,
+      "condition": "minecraft:random_chance"
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player"
+      }
+    },
+    {
+      "condition": "survivalistessentials:block_is_tag",
+      "tag": "minecraft:leaves"
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:silk_touch",
+                "levels": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "#survivalistessentials:shear_tools"
+        }
+      }
+    }
+  ]
+}

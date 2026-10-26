@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "survivalistessentials",
+  "version": "6.3.2.1",
+  "name": "SurvivalistEssentials",
+  "description": "A small mod to make the first day or two of play more believable. New early game tools, no tree punching, saws, and more!",
+  "authors": [
+    "wendall911"
+  ],
+  "contributors": [
+    "ashar42 billyzekat"
+  ],
+  "contact": {
+    "homepage": "https://github.com/wendall911/SurvivalistEssentials",
+    "issues": "https://github.com/wendall911/SurvivalistEssentials/issues",
+    "sources": "https://github.com/wendall911/SurvivalistEssentials"
+  },
+  "license": "MIT",
+  "icon": "survivalistessentials_icon.png",
+  "environment": "*",
+  "accessWidener": "survivalistessentials.accesswidener",
+  "entrypoints": {
+    "main": [
+      "survivalistessentials.SurvivalistEssentialsFabric"
+    ],
+    "client": [
+      "survivalistessentials.SurvivalistEssentialsClientFabric"
+    ],
+    "fabric-datagen": [
+      "survivalistessentials.data.FabricDatagenInitializer"
+    ],
+    "rei_client": [
+      "survivalistessentials.integration.rei.SurvivalistEssentialsREIPlugin"
+    ],
+    "jei_mod_plugin": [
+      "survivalistessentials.integration.jei.SurvivalistEssentialsJeiPlugin"
+    ],
+    "whitenoise-config": [
+      "survivalistessentials.FabricConfigInitializer"
+    ]
+  },
+  "mixins": [
+    "survivalistessentials.mixins.json",
+    "survivalistessentials.fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15",
+    "fabric": "*",
+    "minecraft": [">=1.21.9","<=1.21.11"],
+    "whitenoise": [">=2.0.0","<=3.0.0"],
+    "java": ">=21"
+  }
+}

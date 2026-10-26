@@ -1,0 +1,17 @@
+{
+  "values": [
+    "minecraft:cobweb",
+    {
+      "id": "#minecraft:wool_carpets",
+      "required": false
+    },
+    {
+      "id": "#minecraft:wool",
+      "required": false
+    },
+    {
+      "id": "#minecraft:candle_cakes",
+      "required": false
+    }
+  ]
+}

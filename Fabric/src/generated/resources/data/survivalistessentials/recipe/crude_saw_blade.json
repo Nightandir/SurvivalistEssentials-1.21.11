@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": "survivalistessentials:flint_shard",
+    "I": "minecraft:stick",
+    "S": "survivalistessentials:plant_string"
+  },
+  "pattern": [
+    "ID",
+    "SD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "survivalistessentials:crude_saw_blade"
+  }
+}

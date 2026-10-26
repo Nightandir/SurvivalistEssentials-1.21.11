@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "biomeswevegone:cika_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_cika_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cika_wood",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_cika_wood",
+      "required": false
+    }
+  ]
+}
